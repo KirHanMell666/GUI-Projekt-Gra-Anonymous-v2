@@ -16,23 +16,23 @@
             <Image url="@../Obrazy/cityBackground.jpg" />
          </image>
       </ImageView>
-      <Button fx:id="bWPR0" layoutX="15.0" layoutY="485.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 1" />
-      <Button fx:id="bWPR1" layoutX="120.0" layoutY="485.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 2" />
-      <Button fx:id="bWPR2" layoutX="225.0" layoutY="485.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 3" />
-      <Button fx:id="bWPR3" layoutX="330.0" layoutY="485.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 4" />
-      <Button fx:id="bWPR4" layoutX="435.0" layoutY="485.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 5" />
+      <Button fx:id="bWPR0" layoutX="15.0" layoutY="485.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 1" AnchorPane.bottomAnchor="15.0" AnchorPane.leftAnchor="15.0" />
+      <Button fx:id="bWPR1" layoutX="120.0" layoutY="485.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 2" AnchorPane.leftAnchor="120.0" />
+      <Button fx:id="bWPR2" layoutX="225.0" layoutY="485.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 3" AnchorPane.leftAnchor="225.0" />
+      <Button fx:id="bWPR3" layoutX="330.0" layoutY="485.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 4" AnchorPane.leftAnchor="330.0" />
+      <Button fx:id="bWPR4" layoutX="435.0" layoutY="485.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 5" AnchorPane.leftAnchor="435.0" />
 
-      <Button fx:id="bWPR5" layoutX="15.0" layoutY="370.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 6" />
-      <Button fx:id="bWPR6" layoutX="120.0" layoutY="370.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 7" />
-      <Button fx:id="bWPR7" layoutX="225.0" layoutY="370.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 8" />
-      <Button fx:id="bWPR8" layoutX="330.0" layoutY="370.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 9" />
-      <Button fx:id="bWPR9" layoutX="435.0" layoutY="370.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 10" />
+      <Button fx:id="bWPR5" layoutX="15.0" layoutY="370.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 6" AnchorPane.bottomAnchor="130.0" AnchorPane.leftAnchor="15.0" />
+      <Button fx:id="bWPR6" layoutX="120.0" layoutY="370.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 7" AnchorPane.bottomAnchor="130.0" AnchorPane.leftAnchor="120.0" />
+      <Button fx:id="bWPR7" layoutX="225.0" layoutY="370.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 8" AnchorPane.bottomAnchor="130.0" AnchorPane.leftAnchor="225.0" />
+      <Button fx:id="bWPR8" layoutX="330.0" layoutY="370.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 9" AnchorPane.bottomAnchor="130.0" AnchorPane.leftAnchor="330.0" />
+      <Button fx:id="bWPR9" layoutX="435.0" layoutY="370.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 10" AnchorPane.bottomAnchor="130.0" AnchorPane.leftAnchor="435.0" />
 
-      <Button fx:id="bWPR10" layoutX="15.0" layoutY="255.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 11" />
-      <Button fx:id="bWPR11" layoutX="120.0" layoutY="255.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 12" />
-      <Button fx:id="bWPR12" layoutX="225.0" layoutY="255.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 13" />
-      <Button fx:id="bWPR13" layoutX="330.0" layoutY="255.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 14" />
-      <Button fx:id="bWPR14" layoutX="435.0" layoutY="255.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 15" />
+      <Button fx:id="bWPR10" layoutX="15.0" layoutY="255.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 11" AnchorPane.bottomAnchor="245.0" AnchorPane.leftAnchor="15.0" />
+      <Button fx:id="bWPR11" layoutX="120.0" layoutY="255.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 12" AnchorPane.bottomAnchor="245.0" AnchorPane.leftAnchor="120.0" />
+      <Button fx:id="bWPR12" layoutX="225.0" layoutY="255.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 13" AnchorPane.bottomAnchor="245.0" AnchorPane.leftAnchor="225.0" />
+      <Button fx:id="bWPR13" layoutX="330.0" layoutY="255.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 14" AnchorPane.bottomAnchor="245.0" AnchorPane.leftAnchor="330.0" />
+      <Button fx:id="bWPR14" layoutX="435.0" layoutY="255.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 15" AnchorPane.bottomAnchor="245.0" AnchorPane.leftAnchor="435.0" />
       <Label layoutX="465.0" text="Pruszków">
          <font>
             <Font size="50.0" />
@@ -90,6 +90,16 @@
       </Label>
       <Button fx:id="bPrev" layoutX="25.0" layoutY="20.0" minWidth="185.0" mnemonicParsing="false" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="&lt;-   Poprzednie Miasto" />
       <Button fx:id="bNext" layoutX="220.0" layoutY="20.0" minWidth="185.0" mnemonicParsing="false" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Następne Miasto   -&gt;" />
-      <Button fx:id="bWPRboss" layoutX="225.0" layoutY="127.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-boss" stylesheets="@../CSS/miasta.css" text="Boss" />
+      <Button fx:id="bWPRboss" layoutX="225.0" layoutY="137.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-boss" stylesheets="@../CSS/miasta.css" text="Boss" AnchorPane.bottomAnchor="360.0" AnchorPane.leftAnchor="225.0" />
+      <Button fx:id="WPRroom1" layoutX="25.0" layoutY="370.0" minHeight="100.0" minWidth="500.0" mnemonicParsing="false" styleClass="city-dark-room" stylesheets="@../CSS/miasta.css" text="New Room [50 BTC]">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Button>
+      <Button fx:id="WPRroob2" layoutX="25.0" layoutY="255.0" minHeight="100.0" minWidth="500.0" mnemonicParsing="false" styleClass="city-dark-room" stylesheets="@../CSS/miasta.css" text="New Room [70 BTC]">
+         <font>
+            <Font size="41.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
