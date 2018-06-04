@@ -1,0 +1,43 @@
+.city-dark-worker {
+    -fx-background-color:
+        radial-gradient(center 20% 100%, radius 100%, rgba(0,0,0,1), rgba(40,40,40,0.8));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.3) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: linear-gradient(to right, rgb(226, 2, 2, 1), rgb(0, 255, 17, 1));
+    -fx-padding: 10 20 10 20;
+}
+
+.city-dark-worker:hover {
+    -fx-background-color:
+        radial-gradient(center 20% 0%, radius 100%, rgba(25,25,25,0.9), rgba(0,0,0,0.8));
+}
+
+.city-dark-worker:pressed {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
+
+.city-dark-boss {
+    -fx-background-color:
+        radial-gradient(center 20% 100%, radius 100%, rgba(150,0,0,1), rgba(190,0,0,0.4));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.3) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: linear-gradient(to right, rgb(240, 250, 10, 1), rgb(0, 255, 17, 1));
+    -fx-padding: 10 20 10 20;
+}
+
+.city-dark-boss:hover {
+    -fx-background-color:
+        radial-gradient(center 20% 100%, radius 100%, rgba(100,0,0,1), rgba(140,0,0,0.4));
+}
+
+.city-dark-boss:pressed {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}

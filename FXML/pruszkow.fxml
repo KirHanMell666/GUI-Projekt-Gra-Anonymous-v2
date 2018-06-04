@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="1024.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="600.0" fitWidth="1024.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Obrazy/cityBackground.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="bWPR0" layoutX="15.0" layoutY="485.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 1" />
+      <Button fx:id="bWPR1" layoutX="120.0" layoutY="485.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 2" />
+      <Button fx:id="bWPR2" layoutX="225.0" layoutY="485.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 3" />
+      <Button fx:id="bWPR3" layoutX="330.0" layoutY="485.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 4" />
+      <Button fx:id="bWPR4" layoutX="435.0" layoutY="485.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 5" />
+
+      <Button fx:id="bWPR5" layoutX="15.0" layoutY="370.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 6" />
+      <Button fx:id="bWPR6" layoutX="120.0" layoutY="370.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 7" />
+      <Button fx:id="bWPR7" layoutX="225.0" layoutY="370.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 8" />
+      <Button fx:id="bWPR8" layoutX="330.0" layoutY="370.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 9" />
+      <Button fx:id="bWPR9" layoutX="435.0" layoutY="370.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 10" />
+
+      <Button fx:id="bWPR10" layoutX="15.0" layoutY="255.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 11" />
+      <Button fx:id="bWPR11" layoutX="120.0" layoutY="255.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 12" />
+      <Button fx:id="bWPR12" layoutX="225.0" layoutY="255.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 13" />
+      <Button fx:id="bWPR13" layoutX="330.0" layoutY="255.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 14" />
+      <Button fx:id="bWPR14" layoutX="435.0" layoutY="255.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Worker 15" />
+      <Label layoutX="465.0" text="Pruszków">
+         <font>
+            <Font size="50.0" />
+         </font>
+         <textFill>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="RED" />
+                  <Stop color="RED" offset="0.007662835249042145" />
+                  <Stop color="RED" offset="0.06185567010309278" />
+                  <Stop color="#ff6600" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </textFill>
+      </Label>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="732.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Obrazy/bitcoin.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="802.0" layoutY="7.0" prefHeight="51.0" prefWidth="190.0" text="123456789" textFill="#74f20d">
+         <font>
+            <Font name="Harlow Solid Italic" size="30.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="732.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Obrazy/btcROWNE.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="732.0" layoutY="122.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Obrazy/btcPLUS.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="50.0" fitWidth="50.0" layoutX="732.0" layoutY="177.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Obrazy/btcMINUS.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="802.0" layoutY="62.0" text="4" textFill="#74f20d">
+         <font>
+            <Font name="Harlow Solid Italic" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="802.0" layoutY="117.0" text="10" textFill="#74f20d">
+         <font>
+            <Font name="Harlow Solid Italic" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="802.0" layoutY="172.0" text="6" textFill="#74f20d">
+         <font>
+            <Font name="Harlow Solid Italic" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="bPrev" layoutX="25.0" layoutY="20.0" minWidth="185.0" mnemonicParsing="false" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="&lt;-   Poprzednie Miasto" />
+      <Button fx:id="bNext" layoutX="220.0" layoutY="20.0" minWidth="185.0" mnemonicParsing="false" styleClass="city-dark-worker" stylesheets="@../CSS/miasta.css" text="Następne Miasto   -&gt;" />
+      <Button fx:id="bWPRboss" layoutX="225.0" layoutY="127.0" maxHeight="100.0" maxWidth="100.0" minHeight="100.0" minWidth="100.0" mnemonicParsing="false" style="-fx-background-radius: 50;" styleClass="city-dark-boss" stylesheets="@../CSS/miasta.css" text="Boss" />
+   </children>
+</AnchorPane>

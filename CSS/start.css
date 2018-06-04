@@ -1,0 +1,22 @@
+.start-dark-blue {
+    -fx-background-color:
+
+        radial-gradient(center 50% 0%, radius 100%, rgba(95,115,110,0.9), rgba(255,255,255,0));
+    -fx-background-radius: 5,4,3,5;
+    -fx-background-insets: 0,1,2,0;
+    -fx-effect: dropshadow( three-pass-box , rgba(0,0,0,0.6) , 5, 0.0 , 0 , 1 );
+    -fx-text-fill: linear-gradient(#1c8c23, #00ff11);
+    -fx-padding: 10 20 10 20;
+}
+
+.start-dark-blue:hover {
+    -fx-background-color:
+        radial-gradient(center 50% 0%, radius 100%, rgba(115,135,130,0.9), rgba(255,255,255,0));
+}
+
+.start-dark-blue:pressed {
+    -fx-background-color: linear-gradient(#ff5400, #be1d00);
+    -fx-background-radius: 30;
+    -fx-background-insets: 0;
+    -fx-text-fill: white;
+}
